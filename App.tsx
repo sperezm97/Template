@@ -1,12 +1,10 @@
+import 'react-native-gesture-handler';
+
+import { AppNavigator } from 'navigation/AppNavigator';
 import React from 'react';
-import { Text, View } from 'react-native';
 
 const App = () => {
-  return (
-    <View>
-      <Text>Preuba si funciona</Text>
-    </View>
-  );
+  return <AppNavigator />;
 };
 
 export default App;
